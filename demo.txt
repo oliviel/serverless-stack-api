@@ -1,0 +1,9 @@
+aws cognito-idp sign-up \
+  --region  \
+  --client-id YOUR_COGNITO_APP_CLIENT_ID \
+  --username admin@example.com \
+  --password Passw0rd!
+
+  aws cognito-idp sign-up --region us-east-2 --client-id k91jd059aog0ph12had55gh9a --username testuser@example.com --password Passw0rd!
+
+aws cognito-idp admin-confirm-sign-up --region us-east-2 --user-pool-id us-east-2_mC2trRDaE --username testuser@example.com
